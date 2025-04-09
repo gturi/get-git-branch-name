@@ -5,7 +5,7 @@ DIR="$(dirname "$(readlink -f "$0")")"
 
 SCRIPT="$DIR/get-git-branch-name.sh"
 
-read -p "get-git-branch-name: do you wish to add custom-prompt to your .bashrc? [y/n]" -n 1 -r
+read -p "get-git-branch-name: do you wish to add the utility to your .bashrc? [y/n]" -n 1 -r
 echo # moves to a new line
 
 if [[ ! $REPLY =~ ^[Yy]$ ]]; then
